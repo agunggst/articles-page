@@ -6,6 +6,8 @@
       "name": "I Gusti Agung A T",
       "avatar": "https://avatars.githubusercontent.com/u/42518937?v=4",
       "username": "agunggst",
+      "address": "644 Lockman Passage, Marquardtburgh",
+      "phone": "292-841-9876-5870",
       "educationId": 6
     }
   ],
@@ -69,39 +71,25 @@
   ],
   "posts": [
     {
-      "id": 1,
-      "userId": 1,
-      "name": "Full-text search Saved",
-      "status": true,
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas eros arcu, ut convallis lectus vestibulum a. Praesent tincidunt elit in ultrices varius. Sed dolor nibh, rutrum pretium dolor sed, tristique iaculis turpis. In eu ante blandit dolor tristique vestibulum. Integer suscipit consectetur congue. Nullam enim magna, feugiat ut nibh vitae, lacinia venenatis velit. Praesent laoreet ex ex, vel euismod ex elementum scelerisque. Cras luctus venenatis nulla ut aliquam. Duis porttitor luctus faucibus. Proin purus tellus, fermentum ac ante vel, aliquet feugiat est. Aliquam eleifend ante vitae ligula laoreet mattis. Donec sed mattis ligula, ac aliquet turpis. Curabitur sem neque, malesuada nec pellentesque sit amet, vulputate ut enim. Aliquam lacinia egestas sem. Cras ultrices hendrerit nisl, ut interdum nisl molestie eget. Maecenas vestibulum hendrerit dolor, sit amet varius arcu blandit in. Pellentesque dignissim ante at augue pulvinar, sit amet imperdiet ligula fringilla. Sed congue nisl sit amet tellus facilisis rutrum. Cras in urna non dui finibus feugiat. Vivamus vitae nisi iaculis, tristique urna eget, convallis augue."
-    },
-    {
-      "id": 2,
-      "userId": 1,
-      "name": "Full-text search",
-      "status": true,
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas eros arcu, ut convallis lectus vestibulum a. Praesent tincidunt elit in ultrices varius. Sed dolor nibh, rutrum pretium dolor sed, tristique iaculis turpis. In eu ante blandit dolor tristique vestibulum. Integer suscipit consectetur congue. Nullam enim magna, feugiat ut nibh vitae, lacinia venenatis velit. Praesent laoreet ex ex, vel euismod ex elementum scelerisque. Cras luctus venenatis nulla ut aliquam. Duis porttitor luctus faucibus. Proin purus tellus, fermentum ac ante vel, aliquet feugiat est. Aliquam eleifend ante vitae ligula laoreet mattis. Donec sed mattis ligula, ac aliquet turpis. Curabitur sem neque, malesuada nec pellentesque sit amet, vulputate ut enim. Aliquam lacinia egestas sem. Cras ultrices hendrerit nisl, ut interdum nisl molestie eget. Maecenas vestibulum hendrerit dolor, sit amet varius arcu blandit in. Pellentesque dignissim ante at augue pulvinar, sit amet imperdiet ligula fringilla. Sed congue nisl sit amet tellus facilisis rutrum. Cras in urna non dui finibus feugiat. Vivamus vitae nisi iaculis, tristique urna eget, convallis augue."
-    },
-    {
-      "id": 3,
-      "userId": 1,
-      "name": "Full-text search",
-      "status": false,
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas eros arcu, ut convallis lectus vestibulum a. Praesent tincidunt elit in ultrices varius. Sed dolor nibh, rutrum pretium dolor sed, tristique iaculis turpis. In eu ante blandit dolor tristique vestibulum. Integer suscipit consectetur congue. Nullam enim magna, feugiat ut nibh vitae, lacinia venenatis velit. Praesent laoreet ex ex, vel euismod ex elementum scelerisque. Cras luctus venenatis nulla ut aliquam. Duis porttitor luctus faucibus. Proin purus tellus, fermentum ac ante vel, aliquet feugiat est. Aliquam eleifend ante vitae ligula laoreet mattis. Donec sed mattis ligula, ac aliquet turpis. Curabitur sem neque, malesuada nec pellentesque sit amet, vulputate ut enim. Aliquam lacinia egestas sem. Cras ultrices hendrerit nisl, ut interdum nisl molestie eget. Maecenas vestibulum hendrerit dolor, sit amet varius arcu blandit in. Pellentesque dignissim ante at augue pulvinar, sit amet imperdiet ligula fringilla. Sed congue nisl sit amet tellus facilisis rutrum. Cras in urna non dui finibus feugiat. Vivamus vitae nisi iaculis, tristique urna eget, convallis augue."
-    },
-    {
-      "name": "Save this shit",
-      "content": "hello",
+      "name": "Hello world",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis varius ultricies. Aliquam quis ligula risus. In iaculis eros justo, ut vehicula enim varius sit amet. Duis vel ex et sem dapibus scelerisque et non velit. Duis sit amet nibh hendrerit, pulvinar lectus at, laoreet ligula. Praesent scelerisque ex quis consectetur euismod",
       "status": true,
       "userId": 1,
       "id": 4
+    },
+    {
+      "name": "YES",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis varius ultricies. Aliquam quis ligula risus. In iaculis eros justo, ut vehicula enim varius sit amet. Duis vel ex et sem dapibus scelerisque et non velit. Duis sit amet nibh hendrerit, pulvinar lectus at, laoreet ligula. Praesent scelerisque ex quis consectetur euismod",
+      "status": true,
+      "userId": 1,
+      "id": 5
     },
     {
       "name": "",
       "content": "",
       "status": false,
       "userId": 1,
-      "id": 5
+      "id": 6
     }
   ]
 }

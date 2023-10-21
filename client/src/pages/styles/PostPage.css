@@ -1,18 +1,18 @@
 .post-page{
   padding-bottom: 70px;
 }
-.post-card{
+.post-page .post-card{
   padding: 16px;
   border-radius: 6px;
   border: 1px solid var(--grey-1);
   margin-bottom: 16px;
 }
-.body{
+.post-page .body{
   background-color: var(--grey-3);
   border-radius: 6px;
   padding: 16px;
 }
-.custom-input-post-name{
+.post-page .custom-input-post-name{
   font-size: 20px;
   font-weight: 400;
   margin-bottom: 16px;
@@ -22,7 +22,7 @@
   color: var(--white-1);
   width: 100%;
 }
-.custom-input-post-content{
+.post-page .custom-input-post-content{
   font-size: 16px;
   padding: 0;
   border: none;
@@ -32,13 +32,15 @@
   resize: none;
   overflow: auto;
 }
-.custom-input-post-content::-webkit-scrollbar {
+.post-page .custom-input-post-content::-webkit-scrollbar {
   display: none;
 }
-.is-publish-container{
+.post-page .is-publish-container{
   margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
 }
-.footer-submit{
+.post-page .footer-submit{
   padding: 16px;
   background-color: var(--black-2);
   position: fixed;
@@ -47,11 +49,11 @@
   max-width: calc(775px - 32px);
   border-top: 1px solid var(--grey-2);
 }
-.add-button-container{
+.post-page .add-button-container{
   display: flex;
   justify-content: center;
 }
-.add-button{
+.post-page .add-button{
   color: var(--grey-2);
   font-size: 32px;
   width: 38px;

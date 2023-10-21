@@ -1,0 +1,8 @@
+.contact-page{
+  background-color: var(--grey-3);
+  padding: 16px;
+  border-radius: 6px;
+}
+.contact-page .phone{
+  color: var(--blue-1);
+}

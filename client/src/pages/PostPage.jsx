@@ -3,6 +3,7 @@ import "./styles/PostPage.css"
 import { useNavigate } from "react-router-dom"
 import axios from "axios"
 import GeneralButton from "../components/GeneralButton"
+import DeleteIcon from '@mui/icons-material/Delete'
 
 const PostPage = () => {
   const navigate = useNavigate()
@@ -65,6 +66,19 @@ const PostPage = () => {
     }
   }
 
+  const deletePost = async (id) => {
+    try {
+      const config = {
+        method: 'DELETE',
+        url: `http://localhost:3000/posts/${id}`
+      }
+      await axios(config)
+      getAllPosts()
+    } catch (error) {
+      console.log('error deletePost', error)
+    }
+  }
+
   const saveData = async () => {
     try {
       for (let i = 0; i < posts.length; i++) {
@@ -94,7 +108,12 @@ const PostPage = () => {
                   <textarea value={post.content} onChange={(e) => onChangeInput('content', index, e.target.value)} className="custom-input-post-content" rows="10" spellCheck="false"/>
                 </div>
                 <div className="is-publish-container">
-                  Publish this article? <input type="checkbox" checked={post.status} onChange={(e) => onChangeInput('status', index, e.target.value)}/>
+                  <div>
+                    Publish this article? <input type="checkbox" checked={post.status} onChange={(e) => onChangeInput('status', index, e.target.value)}/>
+                  </div>
+                  <div style={{cursor: 'pointer'}} onClick={() => deletePost(post.id)}>
+                    <DeleteIcon sx={{ color: '#f30000' }}/>
+                  </div>
                 </div>
               </div>
             )

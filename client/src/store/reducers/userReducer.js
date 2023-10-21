@@ -14,7 +14,7 @@ const reducer = (state = defaultState, action) => {
       return {...state, userInfo: action.payload.userInfo, isLoggedIn: true}
     case 'LOGOUT':
       localStorage.removeItem('userInfo')
-      localStorage.setItem('isLoggedIn', false)
+      localStorage.removeItem('isLoggedIn')
       return {...state, userInfo: {}, isLoggedIn: false}
     default:
       return state
