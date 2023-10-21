@@ -1,12 +1,16 @@
 import { Routes } from './routes'
+import { Provider } from 'react-redux'
+import store from './store'
 
 function App() {
   return (
-    <div className="App">
-      <div className="container">
-        <Routes/>
+    <Provider store={store}>
+      <div className="App">
+        <div className="container">
+          <Routes/>
+        </div>
       </div>
-    </div>
+    </Provider>
   )
 }
 
