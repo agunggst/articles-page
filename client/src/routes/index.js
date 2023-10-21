@@ -7,7 +7,6 @@ import BlankLayout from "../layouts/BlankLayout"
 // Pages
 import HomePage from "../pages/HomePage"
 import LoginPage from "../pages/LoginPage"
-import RegisterPage from "../pages/RegisterPage"
 
 export const routes = [
   {
@@ -33,7 +32,7 @@ export const routes = [
       {
         name: 'Register',
         title: 'Articles App - Register',
-        component: RegisterPage ,
+        component: LoginPage ,
         path: '/register',
       }
     ]
