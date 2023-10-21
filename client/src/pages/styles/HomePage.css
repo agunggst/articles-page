@@ -1,8 +1,3 @@
-.home-page{
-  max-width: 775px;
-  margin: 0 auto;
-  padding-top: 32px;
-}
 .home-page .empty-state{
   text-align: center;
   color: var(--grey-1);

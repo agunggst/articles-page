@@ -13,7 +13,7 @@ function App() {
         type: 'INIT_USER_INFO'
       })
     }
-  }, [])
+  }, [dispatch])
   return (
     <div className="App">
       <div className="container">

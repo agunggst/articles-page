@@ -109,4 +109,10 @@ a{
 }
 .default-layout-content{
   padding: 65px 0;
+  max-width: 775px;
+  margin: 0 auto;
+  padding-top: 97px;
+}
+textarea:focus, input:focus{
+  outline: none;
 }

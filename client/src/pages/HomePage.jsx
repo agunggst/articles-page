@@ -12,15 +12,17 @@ const HomePage = () => {
   useEffect(() => {
     const isLoggedIn = localStorage.getItem('isLoggedIn')
     if (!isLoggedIn) navigate('/login')
-  }, [navigate])
-
-  useEffect(() => {
+    dispatch({
+      type: 'SET_POST',
+      payload: {
+        posts: []
+      }
+    })
     dispatch(getAllLivePosts())
-  }, [dispatch])
+  }, [])
 
   return ( 
     <div className="home-page">
-      {/* {!posts.length && <div className="empty-state">No post yet.</div>} */}
       <div className="posts-container">
         {
           posts.map((post, index) => {
