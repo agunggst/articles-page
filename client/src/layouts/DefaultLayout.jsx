@@ -1,10 +1,13 @@
 import { Outlet } from 'react-router-dom'
+import Navbar from '../components/Navbar'
 
 const DefaultLayout = () => {
   return ( 
     <div className='default-layout'>
-      default layout
-      <Outlet/>
+      <Navbar/>
+      <div className="default-layout-content">
+        <Outlet/>
+      </div>
     </div>
   )
 }

@@ -7,6 +7,7 @@
   --blue-1: #2F81F7;
   --grey-1: #7D8590;
   --grey-2:rgb(72, 75, 80);
+  --grey-3: #161b22;
   --green-1: #238636;
   --red-1: #331413;
   --red-2: #F85149;
@@ -25,7 +26,7 @@ a{
   background-color: grey;
 }
 .container{
-  max-width: 1366px;
+  max-width: 1440px;
   min-height: 100vh;
   margin: 0 auto;
   background-color: var(--black-1);
@@ -69,4 +70,43 @@ a{
 }
 .general-button:hover{
   background-color: #33a049;
+}
+.logo{
+  width: 32px;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--black-2);
+  padding: 16px;
+  border-bottom: 1px solid var(--grey-2);
+  position: fixed;
+  top: 0;
+  max-width: calc(1440px - 32px);
+  width: 100%;
+}
+.navbar-title{
+  font-size: 24px;
+  font-weight: 400;
+  margin-left: 16px;
+}
+.navbar .right, .navbar .left{
+  display: flex;
+  align-items: center;
+}
+.navbar .left .nav{
+  margin-right: 16px;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.avatar{
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.default-layout-content{
+  padding: 65px 0;
 }

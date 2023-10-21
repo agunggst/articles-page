@@ -1,16 +1,25 @@
 import { Routes } from './routes'
-import { Provider } from 'react-redux'
-import store from './store'
+import { useDispatch } from 'react-redux'
+import { useEffect } from 'react'
 
 function App() {
+  const dispatch = useDispatch()
+
+  useEffect(() => {
+    document.title = 'Article App'
+    const checkToken = localStorage.getItem('isLoggedIn')
+    if (checkToken) {
+      dispatch({
+        type: 'INIT_USER_INFO'
+      })
+    }
+  }, [])
   return (
-    <Provider store={store}>
-      <div className="App">
-        <div className="container">
-          <Routes/>
-        </div>
+    <div className="App">
+      <div className="container">
+        <Routes/>
       </div>
-    </Provider>
+    </div>
   )
 }
 

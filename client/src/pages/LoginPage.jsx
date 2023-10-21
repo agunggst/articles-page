@@ -23,6 +23,9 @@ const LoginPage = () => {
   }, [navigate])
 
   useEffect(() => {
+    setError('')
+    setUsername('')
+    setPassword('')
     if (location.pathname === '/login') {
       setPageState('LoginPage')
     } else {
