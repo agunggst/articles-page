@@ -1,0 +1,78 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "password": "admin123",
+      "name": "I Gusti Agung A T",
+      "username": "agunggst",
+      "educationId": 6
+    }
+  ],
+  "educations": [
+    {
+      "id": 1,
+      "name": "Kindergarten (TK)"
+    },
+    {
+      "id": 2,
+      "name": "Elementary School (SD)"
+    },
+    {
+      "id": 3,
+      "name": "Middle School (SMP)"
+    },
+    {
+      "id": 4,
+      "name": "High School (SMA)"
+    },
+    {
+      "id": 5,
+      "name": "College or University (Perguruan Tinggi)"
+    },
+    {
+      "id": 6,
+      "name": "Undergraduate (Sarjana)"
+    },
+    {
+      "id": 7,
+      "name": "Graduate School (Pascasarjana)"
+    },
+    {
+      "id": 8,
+      "name": "Master's Degree (Magister)"
+    },
+    {
+      "id": 9,
+      "name": "Doctorate or Ph.D. (Doktoral)"
+    },
+    {
+      "id": 10,
+      "name": "Other"
+    }
+  ],
+  "experiences": [
+    {
+      "id": 1,
+      "userId": 1,
+      "name": "Front-End Engineer (Vue.js)",
+      "description": "Develop web app features according to product requirements and design system. Responsible to maintain user and growth service."
+    }
+  ],
+  "organizations": [
+    {
+      "id": 1,
+      "userId": 1,
+      "name": "BEM FTUI",
+      "description": "Staff finance and entrepreneurship."
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "name": "",
+      "status": false,
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas eros arcu, ut convallis lectus vestibulum a. Praesent tincidunt elit in ultrices varius. Sed dolor nibh, rutrum pretium dolor sed, tristique iaculis turpis. In eu ante blandit dolor tristique vestibulum. Integer suscipit consectetur congue. Nullam enim magna, feugiat ut nibh vitae, lacinia venenatis velit. Praesent laoreet ex ex, vel euismod ex elementum scelerisque. Cras luctus venenatis nulla ut aliquam. Duis porttitor luctus faucibus. Proin purus tellus, fermentum ac ante vel, aliquet feugiat est. Aliquam eleifend ante vitae ligula laoreet mattis. Donec sed mattis ligula, ac aliquet turpis. \n Curabitur sem neque, malesuada nec pellentesque sit amet, vulputate ut enim. Aliquam lacinia egestas sem. Cras ultrices hendrerit nisl, ut interdum nisl molestie eget. Maecenas vestibulum hendrerit dolor, sit amet varius arcu blandit in. Pellentesque dignissim ante at augue pulvinar, sit amet imperdiet ligula fringilla. Sed congue nisl sit amet tellus facilisis rutrum. Cras in urna non dui finibus feugiat. Vivamus vitae nisi iaculis, tristique urna eget, convallis augue."
+    }
+  ]
+}

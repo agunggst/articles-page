@@ -1,0 +1,34 @@
+Table users {
+  id integer [primary key]
+  password varchar
+  name varchar
+  username varchar
+  educationId integer [ref: > educations.id]
+}
+
+Table posts {
+  id integer [primary key]
+  user_id integer [ref: > users.id]
+  name varchar
+  status boolean
+  content text
+}
+
+Table educations {
+  id integer [primary key]
+  name varchar
+}
+
+Table organizations {
+  id integer [primary key]
+  user_id integer [ref: > users.id]
+  name varchar
+  description varchar
+}
+
+Table experiences {
+  id integer [primary key]
+  user_id integer [ref: > users.id]
+  name varchar
+  description varchar
+}
