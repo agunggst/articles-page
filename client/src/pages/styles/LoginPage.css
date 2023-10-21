@@ -1,0 +1,41 @@
+.login-page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 32px;
+}
+.login-page .logo{
+  width: 48px;
+  padding-bottom: 24px;
+}
+.login-page .title{
+  font-size: 24px;
+  font-weight: 300;
+}
+.login-page .login-form{
+  width: 308px;
+  padding: 16px;
+  background-color: var(--black-2);
+  border-radius: 6px;
+  border: 1px solid var(--grey-2);
+  margin-top: 16px;
+}
+.login-page .login-callout{
+  width: 308px;
+  padding: 16px;
+  text-align: center;
+  background-color: var(--black-1);
+  border-radius: 6px;
+  border: 1px solid var(--grey-2);
+  margin-top: 16px;
+}
+.login-page .error-message{
+  width: 308px;
+  padding: 16px;
+  text-align: center;
+  background-color: var(--red-1);
+  border: 1px solid var(--red-2);
+  border-radius: 6px;
+  margin-top: 16px;
+}
