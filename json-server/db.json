@@ -76,20 +76,6 @@
       "status": true,
       "userId": 1,
       "id": 4
-    },
-    {
-      "name": "YES",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis varius ultricies. Aliquam quis ligula risus. In iaculis eros justo, ut vehicula enim varius sit amet. Duis vel ex et sem dapibus scelerisque et non velit. Duis sit amet nibh hendrerit, pulvinar lectus at, laoreet ligula. Praesent scelerisque ex quis consectetur euismod",
-      "status": true,
-      "userId": 1,
-      "id": 5
-    },
-    {
-      "name": "",
-      "content": "",
-      "status": false,
-      "userId": 1,
-      "id": 6
     }
   ]
 }
